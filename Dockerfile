@@ -1,12 +1,12 @@
 FROM stampyt/pybuilder
 
-RUN pip install opencv-python
-RUN pip install requests
-RUN pip install Flask
-RUN pip install boto3
-RUN pip install injector
-RUN pip install Flask-Injector
-RUN pip install wtforms-json
+RUN pip install opencv-python==3.4.1.15
+RUN pip install requests==2.18.4
+RUN pip install Flask==1.0.2
+RUN pip install boto3==1.7.29
+RUN pip install injector==0.13.4
+RUN pip install Flask-Injector==0.10.1
+RUN pip install wtforms-json==0.3.3
 
 WORKDIR "/var/app/"
 
