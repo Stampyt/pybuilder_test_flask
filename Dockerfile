@@ -1,4 +1,4 @@
-FROM stampyt/pybuilder
+FROM stampyt/pybuilder:3.6.5-slim-jessie
 
 RUN pip install opencv-python==3.4.1.15
 RUN pip install requests==2.18.4
