@@ -6,7 +6,7 @@ RUN pip install Flask==1.0.2
 RUN pip install boto3==1.7.29
 RUN pip install injector==0.13.4
 RUN pip install Flask-Injector==0.10.1
-RUN pip install wtforms-json==0.3.3
+RUN pip install jsonschema==2.6.0
 
 WORKDIR "/var/app/"
 
