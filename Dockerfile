@@ -7,6 +7,7 @@ RUN pip install boto3==1.7.29
 RUN pip install injector==0.13.4
 RUN pip install Flask-Injector==0.10.1
 RUN pip install jsonschema==2.6.0
+RUN pip install GitPython==2.1.11
 
 WORKDIR "/var/app/"
 
